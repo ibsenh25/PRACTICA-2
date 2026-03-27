@@ -34,9 +34,8 @@ int imple_13() {
         for (int j = 0; j < 6; j++) {
             galaxia[i][j] = rand() % 16;
 
-            // Imprimimos la matriz con formato para que se vea ordenada (opcional)
             if (galaxia[i][j] < 10) {
-                cout << " "; // Espacio extra para números de un dígito
+                cout << " "; 
             }
             cout << galaxia[i][j] << " ";
         }
