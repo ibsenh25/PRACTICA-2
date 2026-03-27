@@ -1,7 +1,8 @@
 #ifndef PROBLEMA_9_H
 #define PROBLEMA_9_H
 
-void separar_numeros(char *origen, char *texto, char *numeros);
+int obtener_longitud(const char *cadena);
+int sumar_cadena(int n, const char *cadena);
 int imple_9();
 
 #endif // PROBLEMA_9_H
