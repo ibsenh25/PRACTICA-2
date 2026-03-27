@@ -4,6 +4,12 @@
 #include "PROBLEMA_5.h"
 #include "PROBLEMA_7.h"
 #include "PROBLEMA_9.h"
+#include "PROBLEMA_11.h"
+#include "PROBLEMA_13.h"
+#include "PROBLEMA_15.h"
+#include "PROBLEMA_17.h"
+
+
 
 using namespace std;
 
@@ -28,6 +34,18 @@ int main() {
         break;
     case 9:
         imple_9();
+        break;
+    case 11:
+        imple_11();
+        break;
+    case 13:
+        imple_13();
+        break;
+    case 15:
+        imple_15();
+        break;
+    case 17:
+        imple_17();
         break;
     default:
         cout << "Opcion no valida" << endl;
